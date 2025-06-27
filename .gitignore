@@ -1,0 +1,98 @@
+# Exclui todos os target/ de todos os módulos recursivamente
+**/target/
+
+# Maven extra
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Logs
+*.log
+logs/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# Testcontainers local Docker config
+testcontainers.properties
+
+# Database files (H2, SQLite, etc.)
+*.h2.db
+*.mv.db
+*.db
+*.sqlite
+
+# Environment files
+.env
+.env.*
+
+# Coverage
+/coverage/
+*.exec
+jacoco.exec
+
+# IDE specific configs
+*.swp
+*.swo
+*.bak
+
+# Lombok
+*.lombok.config
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node (se usar frontend)
+node_modules/
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+docker-compose-local.yml
+
+# Outros
+*.pid
+*.seed
+*.pid.lock
+*.orig
+
+# Ignore JAR/WAR/EAR no repo root
+*.jar
+*.war
+*.ear
